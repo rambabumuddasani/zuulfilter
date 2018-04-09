@@ -1,0 +1,9 @@
+zuul:
+  routes:
+    bar:
+      path: /app/**
+      url: http://localhost:9090
+
+ribbon:
+  eureka:
+    enabled: false
